@@ -1,4 +1,5 @@
 # Encoder that shifts all numbers up by 3
+# Zack Nelson
 def password_encoder(password):
     # Ensure the input is exactly 8 digits long
     if len(password) != 8 or not password.isdigit():
@@ -9,7 +10,7 @@ def password_encoder(password):
 
     return encoded_string
 
-# Decoder that shifts all numbers down by 3
+
 
 
 def print_menu():
